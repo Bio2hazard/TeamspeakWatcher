@@ -30,7 +30,7 @@ date_default_timezone_set("Europe/Berlin"); // Adjust the time-zone to your regi
 require_once("config.php");
 
 // Load framework library
-require_once("/var/www/vhosts/chapterfain.com/private/TeamspeakWatcher/libraries/TeamSpeak3/TeamSpeak3.php");
+require_once("/usr/TeamspeakWatcher/libraries/TeamSpeak3/TeamSpeak3.php");
 
 // Initialize
 TeamSpeak3::init();
